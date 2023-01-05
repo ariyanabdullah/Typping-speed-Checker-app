@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Blog page added</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+</head>
+
+<body>
+    <!-- Header added -->
+
+    <header>
+        <h3 class="text-center py-5">All Question And Answer</h3>
+    </header>
+    <!-- header end -->
+    <!-- main container start -->
+    <main>
+        <div class="container">
+            <!-- first question -->
+            <div class="shadow-lg p-4 my-5 rounded">
+                <h4 class="py-3">How we Get undefined in JavaScript?</h4>
+                <p>1. variable which is not initials will give undefined</p>
+                <p>2. function with no return will give undefined</p>
+                <p>3. perameters that is not passed will be undefinied</p>
+                <p>4. if return has nothing on the right side will return undefined</p>
+                <p>property that doesn't exist on an object will return undefined</p>
+                <p> 6. accesing the elements outside of an array index range <br> will give undefined</p>
+            </div>
+            <!-- second question -->
+
+            <div class="shadow-lg p-4 my-5 rounded">
+                <h4 class="py-3">How does the event loop work in JavaScript?</h4>
+                <p>The Event Loop has one simple job — to monitor the Call Stack and the Callback Queue. If the Call
+                    Stack is empty, the Event Loop will take the first event from the queue and will push it to the Call
+                    Stack, which effectively runs it. Such an iteration is called a tick in the Event Loop.</p>
+            </div>
+
+            <!--third question  -->
+            <div class="shadow-lg p-4 my-5 rounded">
+                <h4 class="py-3">What is the differecne between local storage and session storate in JavaScript?</h4>
+                <p>sessionStorage is similar to localStorage ; the difference is that while data in localStorage doesn't
+                    expire, data in sessionStorage is cleared when the page session ends. Whenever a document is loaded
+                    in a particular tab in the browser, a unique page session gets created and assigned to that
+                    particular tab.</p>
+            </div>
+
+            <!--fourth question  -->
+            <div class="shadow-lg p-4 my-5 rounded">
+                <h4 class="py-3">What is the differecne between globale scope and block scope in JavaScript?</h4>
+                <p>Global scope — Global scope contains all of the things defined outside of all code blocks. A code
+                    block simply consists of grouped statements inside curly braces ({ }). if statement, loops, function
+                    are examples of structure that create a code block. A global variable has global scope. A global
+                    variable is accessible from anywhere in the code. <br> Local Scope — Local scope contains things
+                    defined
+                    inside code blocks. A local variable has local scope. A local variable is only accessible where it’s
+                    declared.</p>
+            </div>
+
+
+        </div>
+    </main>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
